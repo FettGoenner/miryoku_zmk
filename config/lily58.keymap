@@ -9,16 +9,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-        # combo_esc {
-        #     timeout-ms = <50>;
-        #     key-positions = <0 1>;
-        #     bindings = <&kp ESC>;
-        # };
-        # combo_ae {
-        #     timeout-ms = <50>;
-        #     key-positions = <25 26>; // a+s
-        #     bindings = <&kp DE_A_UMLAUT>;
-        # };
         combo_enter_base {
             timeout-ms = <50>;
             key-positions = <0 1>;
