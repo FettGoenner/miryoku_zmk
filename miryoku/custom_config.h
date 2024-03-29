@@ -8,12 +8,7 @@
 #define MIRYOKU_NAV_VI
 
 / {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-    };
+  combos {
+    compatible = "zmk,combos";
+  };
 };
