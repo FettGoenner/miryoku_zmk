@@ -3,8 +3,6 @@
 // generated -*- buffer-read-only: t -*-
 // target: zmk
 
-#include "keys_de.h"
-
 #pragma once
 
 
