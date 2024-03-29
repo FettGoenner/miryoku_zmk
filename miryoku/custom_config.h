@@ -25,14 +25,13 @@ U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp 
 &kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_enter_base_layer {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-    };
-};
-
+/* / { */
+/*     combos { */
+/*         compatible = "zmk,combos"; */
+/*         combo_enter_base_layer { */
+/*             timeout-ms = <50>; */
+/*             key-positions = <0 1>; */
+/*             bindings = <&kp ESC>; */
+/*         }; */
+/*     }; */
+/* }; */
