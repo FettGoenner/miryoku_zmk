@@ -32,7 +32,6 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
-            layers = <0>;
         };
     };
 };
