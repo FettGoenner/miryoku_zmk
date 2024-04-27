@@ -4,3 +4,15 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
+#include "keys_de.h"
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_enter_base {
+            timeout-ms = <50>;
+            key-positions = <53 54>;
+            bindings = <&to 0>;
+        };
+    };
+};
