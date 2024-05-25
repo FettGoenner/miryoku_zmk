@@ -11,12 +11,12 @@
         compatible = "zmk,combos";
         combo_enter_base {
             timeout-ms = <50>;
-            key-positions = <34 35>;
+            key-positions = <38 39>;
             bindings = <&to 0>;
         };
         combo_shift {
             timeout-ms = <50>;
-            key-positions = <33 36>;
+            key-positions = <37 40>;
             bindings = <&kp LSHIFT>;
         };
     };
